@@ -1,0 +1,93 @@
+// button modal
+.btn--modal {
+    @include btn($color-blue-0, $color-white-0, $fw-1, $color-blue-0, 1.95rem);
+    border: 2px solid $color-blue-0;
+}
+
+// button carousel and vehicle
+.btn--carousel,
+.btn--vehicle {
+    @include btn($color-white-0, $color-red-0, $fw-bold, $color-white-0, 1.95rem);
+    border: 2px solid $color-white-0;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    &:hover {
+        color: $color-red-0;
+    }
+}
+
+// button menu
+.btn--eng {
+    @include btn($color-white-0, $color-blue-0, $fw-bold, $color-white-0, 1.95rem);
+    border: 2px solid $color-blue-0;
+    font-size: 14px;
+    padding: 5px 10px;
+    &:hover {
+        color: $color-blue-0;
+    }
+}
+
+.btn--esp {
+    @include btn($color-blue-0, $color-white-0, $fw-bold, $color-blue-0, 1.95rem);
+    border: 2px solid $color-blue-0;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+//button banner
+.btn--banner {
+    @include btn($color-white-0, none, $fw-bold, $color-white-0, 1.95rem);
+    font-size: 14px;
+    border: 2px solid $color-white-0;
+    &:hover {
+        color: #3fa2dc;
+        border: 2px solid #3fa2dc;
+    }
+}
+
+.btn--vehicle--1 {
+    @include btn($color-red-0, $color-white-0, $fw-bold, $color-red-0, 1.95rem);
+    border: 2px solid $color-red-0;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 10px 35px;
+    &:hover {
+        color: $color-white-0;
+    }
+}
+
+// button tools
+.btn--tools {
+    @include btn($color-white-0, $color-blue-0, $fw-bold, $color-white-0, 1.95rem);
+    border: 2px solid $color-blue-0;
+    font-size: 14px;
+    padding: 5px 40px;
+    &:hover {
+        color: $color-blue-0;
+    }
+}
+
+.btn--tools--item {
+    @include btn($color-white-0, $color-blue-0, $fw-bold, $color-white-0, 1.95rem);
+    border: 2px solid $color-blue-0;
+    font-size: 14px;
+    padding: 5px 20px;
+    &:hover {
+        color: $color-blue-0;
+        background: transparent;
+    }
+}
+
+//discover
+.btn--discover {
+    @include btn($color-white-0, $color-red-0, $fw-bold, $color-white-0, 1.95rem);
+    border: 2px solid $color-red-0;
+    font-size: 14px;
+    padding: 5px 20px;
+    &:hover {
+        border: 2px solid $color-red-0;
+        color: $color-red-0;
+        background: $color-white-0;
+    }
+}

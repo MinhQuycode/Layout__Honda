@@ -1,0 +1,29 @@
+#discover {
+    padding: 3rem 0 5rem 0;
+    background-color: $color-white-0;
+    text-align: center;
+    h1 {
+        @include text( #06456a, $fs-3 - 0.5, 100);
+    }
+    .discover__1 {
+        justify-content: center;
+        .discover__item {
+            width: 100%;
+            text-align: center;
+            line-height: 20px;
+            .card {
+                box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2);
+                max-width: 327px;
+                min-height: 500px;
+                margin: 0 auto;
+                .card-title {
+                    min-height: 54px;
+                    @include text(rgb(0, 50, 79), $fs-0 + 2, $fw-bold);
+                }
+                .card-text {
+                    min-height: 162px;
+                }
+            }
+        }
+    }
+}

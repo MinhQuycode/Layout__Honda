@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  color: #333;
+  font-family: AvenirNext-Regular, HelveticaNeue, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  font-weight: 400; }
+
+header {
+  color: #007cc0;
+  height: 56px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,938 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Shop Current & Upcoming Vehicles | Honda</title>
+    <link rel="shortcut icon" type="image/png" href="https://automobiles.honda.com/Areas/Honda_Automobiles/img/Favicon_16.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font fa5 -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- animation css -->
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar--header navbar-expand-lg navbar-dark">
+            <a class="ml-3 navbar-brand" href="#"><img class="img-fluid" src="./img/honda_logo.png" alt="logo"></a>
+
+            <i class=" d-none fas fa-map-marker-alt header__GPS" data-toggle="modal" data-target="#myModal"></i>
+            <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="font-weight-bold navbar-toggler-icon btn--menu"></span>
+            </button>
+
+            <div class="myMenu collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">VEHICLES
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SHOPPING TOOLS
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Owners
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Explore
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Find a Dealer</a>
+                    </li>
+                    <li class="nav-item nav--item">
+                        <a class="nav-link" href="#">Espanol</a>
+                    </li>
+                    <li class="nav-item nav--item" data-toggle="modal" data-target="#myModal">
+                        <a class="nav-link" href="#">Location 
+                        <i class="fas fa-map-marker-alt"></i></a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link" href="#">Language</a>
+                        <div class="btn__lag">
+                            <button class="btn btn--eng">ENGLISH</button>
+                            <button class="btn btn--esp">ESPANOL</button>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="mb-5 d-none search__header input-group">
+                            <div class=" input-group-prepend">
+                                <span class=" input--header input-group-text" id="basic-addon1">
+                                <i class="fas fa-search"></i>
+                            </span>
+                            </div>
+                            <input type="text" class="input--header form-control" placeholder="Search for anything Honda" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--End header -->
+    <!--BS modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Please Enter Your ZIP Code</h6>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <input class="form-control" type="text" placeholder="ZIP Code">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn--modal btn-secondary" data-dismiss="modal">ENTER ZIP CODE</button>
+                    <button type="button" class="btn btn--modal btn-primary" data-dismiss="modal">CANCEL</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--End modal -->
+    <!-- carousel -->
+    <section id="demo" class="carousel slide" data-ride="carousel">
+
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/carousel_1.jpg" alt="Los Angeles">
+                <div class="carousel-caption">
+                    <p>Discover just how tough a Honda can be.</p>
+                    <button class="btn btn--carousel">READ MORE</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/carousel_2.jpg" alt="Chicago">
+                <div class="carousel-caption">
+                    <p>Discover just how tough a Honda can be.</p>
+                    <button class="btn btn--carousel">READ MORE</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/carousel_3.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <p>Discover just how tough a Honda can be.</p>
+                    <button class="btn btn--carousel">READ MORE</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./img/carousel_4.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <p>Discover just how tough a Honda can be.</p>
+                    <button class="btn btn--carousel">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </section>
+    <!--End carousel -->
+    <!-- banner -->
+    <section id="banner">
+        <div class="container__banner">
+            <div class="row banner__content w-100">
+                <div class="col-md-6 mt-3 banner__item">
+                    <img src="./img/intro__1.jpg" alt="">
+                    <div class="content__text">
+                        <p>See 2020 Accord offers near you.</p>
+                        <button class="btn btn--banner">SEE OFFERS</button>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3  banner__item">
+                    <img src="./img/intro__2.jpg" alt="">
+                    <div class="content__text__1">
+                        <button class="acc">BUILD & PRICE</button>
+                        <p>Personalize a 2020 Ridgeline to make it your own.</p>
+                        <button class="btn btn--banner">BUILD MY VEHICLE</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--End banner -->
+    <!-- vehicles -->
+    <section id="vehicles">
+        <h6 class="title text-center">Our Vehicles</h6>
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="pill" href="#car">CARS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#suv">SUVS & CROSSOVERS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#min">MINIVAN & TRUCK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#ele">ELECTRIFIED</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#pre">PRE-OWNED</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="car">
+                <div class="owl-carousel owl-theme">
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__1.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_6.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__2.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_3.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__3.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_2.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="suv">
+                <div class="owl-carousel owl-theme">
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__4.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_1.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__5.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_1.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__6.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_1.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="min">
+                <div class="owl-carousel owl-theme">
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__7.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_7.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__9.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_1.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="ele">
+                <div class="owl-carousel owl-theme">
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__10.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_3.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__11.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_4.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__12.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_1.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pre">
+                <div class="owl-carousel owl-theme">
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__13.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_4.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vehicles__item">
+                        <img src="./img/vehicles__14.jpg" alt="">
+                        <div class="vehicles__content">
+                            <div class="content__logo">
+                                <img src="./img/vehicle_logo_5.png" alt="">
+                            </div>
+                            <p>With three advanced powertrains, a cabin full of technological innovations and Honda Sensing® standard on all trims, the Accord is everything a sedan should be and more. </p>
+                            <div class="content__number d-flex">
+                                <p>$24,767<br>
+                                    <b>CYTY/RATING</b>
+                                </p>
+                                <p>30/38<br><b>CYTY/RATING</b></p>
+                            </div>
+                            <div class="content__btn">
+                                <button class="btn btn--vehicle mr-2">
+                                    EXPLORE
+                                </button>
+                                <button class="btn btn--vehicle--1">
+                                    BUILD
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End vehicles -->
+    <!-- tools -->
+    <section id="tools">
+        <div class="tool__content__1">
+            <div class="row mx-0">
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-tools"></i>
+                            <h6>Build and Price</h6>
+                            <button class="btn btn--tools">GO</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-toolbox"></i>
+                            <h6>See Offers</h6>
+                            <button class="btn btn--tools">GO</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-search-dollar"></i>
+                            <h6>Search Inventory</h6>
+                            <button class="btn btn--tools">GO</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-calculator"></i>
+                            <h6>Estimate Payments</h6>
+                            <button class="btn btn--tools">GO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" tool__content__2">
+                <div class="row mx-0">
+                    <div class="col-md-6 tools__item mt-3">
+                        <img src="./img/certified.jpg" alt="">
+                        <button class="btn btn--tools--item btn__tools">SHOP CERTIFIED</button>
+                    </div>
+                    <div class="col-md-6 tools__item mt-3">
+                        <img src="./img/certified__1.jpg" alt="">
+                        <div class="tools__text text-center px-5">
+                            <h6>
+                                How-To Videos and Guides
+                            </h6>
+                            <p>
+                                Find owner manuals, instructional guides, how-to videos and helpful links designed to help you make the most of your Honda.
+                            </p>
+                            <button class="btn btn--tools--item">GO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- End tools -->
+    <!-- Discover -->
+    <section id="discover">
+        <h1 class="title">Discover Honda</h1>
+        <p>Explore the world of Honda through our latest news, events and videos.</p>
+        <div class="container">
+            <div class="row discover__1">
+                <div class="col-lg-4 col-md-6  mt-4 discover__item">
+                    <div class="card">
+                        <img class="d-block w-100" src="./img/discover_1.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Fighting COVID-19 Together</h5>
+                            <p class="card-text">Discover how Honda has helped in the fight against COVID-19. From supporting our customers to donating personal protective equipment to our healthcare heroes, we’re dedicated to doing everything we can for our communities.</p>
+                            <button class="btn btn--eng">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  mt-4 discover__item">
+                    <div class="card">
+                        <img class="d-block w-100" src="./img/discover_2.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Shop Simple Now Available</h5>
+                            <p class="card-text">You can buy your next Honda online. Available in select markets.</p>
+                            <button class="btn btn--eng">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  mt-4 discover__item">
+                    <div class="card">
+                        <img class="d-block w-100" src="./img/discover_3.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Get to Know the Redesigned 2021 Accord Hybrid</h5>
+                            <p class="card-text">With its thrilling driving performance and torque, outstanding fuel-economy ratings* and all the comfort and cargo space you’ve come to expect from the Accord, the 2021 Accord Hybrid checks all your boxes and more.</p>
+                            <button class="btn btn--eng">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  mt-4 discover__item">
+                    <div class="card">
+                        <img class="d-block w-100" src="./img/discover_4.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Honda Awarded Best Value Brand by KBB.com for Sixth Consecutive Year</h5>
+                            <p class="card-text">Discover how Honda has helped in the fight against COVID-19. From supporting our customers to donating personal protective equipment to our healthcare heroes, we’re dedicated to doing everything we can for our communities.</p>
+                            <button class="btn btn--eng">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  mt-4 discover__item">
+                    <div class="card">
+                        <img class="d-block w-100" src="./img/discover_5.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Honda Sensing®</h5>
+                            <p class="card-text">Learn more about our suite of safety and driver-assistive technologies designed to alert you to things you might miss while driving.</p>
+                            <button class="btn btn--eng">LEARN MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class=" mt-5 btn btn--discover">MORE NEWS AND EVENTS</button>
+        </div>
+    </section>
+    <!-- End Discover -->
+    <!-- footer -->
+    <footer>
+        <div class="footer__top">
+            <div class="footer__contents">
+                <div class="row footer__item__1">
+                    <img class="img-fluid" src="./img/logo_footer2.png" alt="">
+                </div>
+                <div class="row footer__item__2">
+                    <div class="col-md-12 col-lg-4 p-0">
+                        <p>Stay In Touch</p>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-snapchat-ghost"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="col-md-12 col-lg-4">
+                        <form class="position-relative d-inline-block mb-4" action="#">
+                            <i class="footer__search fas fa-search"></i>
+                            <input id="inp" onkeyup="myFunction()" type="text" placeholder="Search for anything Honda">
+                            <button id="btn" class="btn btn--1 btn--tools--item py-0 px-1">GO</button>
+                        </form>
+                    </div>
+                    <div class="col-md-12 col-lg-4 text-right p-0">
+                        <p>Receive the latest news and exclusive updates.</p>
+                        <button class="btn btn--esp">STAY INFORMED</button>
+                    </div>
+                </div>
+                <div id="menu" class="row footer__item__3">
+                    <div class="col p-0">
+                        <div class="accordion">
+                            <h6>Vehicles</h6>
+                            <div class="icon__menu">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                            </div>
+                        </div>
+                        <ul class="panel">
+                            <li><a href="">Civic Models</a></li>
+                            <li><a href="">Insight Hybrid</a></li>
+                            <li><a href="">Accord Models</a></li>
+                            <li><a href="">Clarity Models</a></li>
+                            <li><a href="">Fit Hatchback</a></li>
+                            <li><a href="">HR-V Crossover</a></li>
+                        </ul>
+                    </div>
+                    <div class="col p-0">
+                        <div class="accordion">
+                            <h6>Shopping Tools</h6>
+                            <div class="icon__menu">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                            </div>
+                        </div>
+                        <ul class="panel">
+                            <li><a href="">Civic Models</a></li>
+                            <li><a href="">Insight Hybrid</a></li>
+                            <li><a href="">Accord Models</a></li>
+                            <li><a href="">Clarity Models</a></li>
+                            <li><a href="">Fit Hatchback</a></li>
+                            <li><a href="">CR-V Crossover</a></li>
+                            <li><a href="">Passport SUV</a></li>
+                        </ul>
+                    </div>
+                    <div class="col p-0">
+                        <div class="accordion">
+                            <h6>Discover Honda</h6>
+                            <div class="icon__menu">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                            </div>
+                        </div>
+                        <ul class="panel">
+                            <li><a href="">Civic Models</a></li>
+                            <li><a href="">Insight Hybrid</a></li>
+                            <li><a href="">Accord Models Awards </a></li>
+                            <li><a href="">Fit Hatchback Honda </a></li>
+                            <li><a href="">CR-V Crossover</a></li>
+                            <li><a href="">Passport SUV</a></li>
+                        </ul>
+                    </div>
+                    <div class="col p-0">
+                        <div class="accordion">
+                            <h6>Helps & Support</h6>
+                            <div class="icon__menu">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                            </div>
+                        </div>
+                        <ul class="panel">
+                            <li><a href="">Civic Models</a></li>
+                            <li><a href="">Insight Hybrid</a></li>
+                            <li><a href="">Accord Models</a></li>
+                            <li><a href="">Clarity Models</a></li>
+                            <li><a href="">Fit Hatchback</a></li>
+                        </ul>
+                    </div>
+                    <div class="col p-0">
+                        <div class="accordion">
+                            <h6>Owners</h6>
+                            <div class="icon__menu">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                            </div>
+                        </div>
+                        <ul class="panel">
+                            <li><a href="">Civic Models</a></li>
+                            <li><a href="">Insight Hybrid</a></li>
+                            <li><a href="">Accord Models</a></li>
+                            <li><a href="">Fit Hatchback</a></li>
+                            <li><a href="">HR-V Crossover</a></li>
+                            <li><a href="">Passport SUV</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row"></div>
+            </div>
+        </div>
+        <div class="footer__under">
+            <div class="footer__contents">
+                <div class="row footer__item__4">
+                    <div class="col-md-12 col-lg-6 text-left p-0">
+                        <p>©2020 American Honda Motor Co., Inc. All information contained herein applies to U.S. vehicles only. For non-U.S.-distributor information go to world.honda.com.</p>
+                    </div>
+                    <div class="col-md-12 col-lg-6 text-right p-0">
+                        <ul>
+                            <li>
+                                <a class="border__none" href="">Privacy Policy </a>
+                            </li>
+                            <li>
+                                <a href=""> Prop 65 Info </a>
+                            </li>
+                            <li>
+                                <a href=""> Vehicle Data Privacy</a>
+                            </li>
+                            <li>
+                                <a href=""> SMS Terms</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a class="border__none" href="">Terms & Conditions </a>
+                            </li>
+                            <li>
+                                <a href=""> Do Not Sell My Personal Information </a>
+                            </li>
+                            <li>
+                                <a href="">  Site Map</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row footer__item__5">
+                    <a href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                    <a class="img__none" href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                    <a class="img__none" href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                    <a class="img__none" href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                    <a class="img__none" href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                    <a class="img__none" href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                    <a class="img__none" href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                    <a class="img__none" href="#">
+                        <img class="img-fluid" src="./img/honda_logo.png" alt="">
+                    </a>
+                </div>
+                <div class="row footer__item__6 pb-3">
+                    <div class="col-md-12 col-lg-6">
+                        <p>We use cookies to improve your experience on this site and show you personalized advertising. To find out more, read our Cookie Policy .</p>
+                    </div>
+                    <a href="#" onclick="topFunction()" id="myBtn" class="back__to__top">
+                        <i class="fab fa-autoprefixer"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- <script src="./js/main.js"></script>
+    <script src="./js/util.js"></script> -->
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            // mybutton.style.scrollBehavior = "smooth";
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+            }
+        })
+    </script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("inp");
+            if (x.value.length > 0) {
+                document.getElementById("btn").style.display = "block";
+            } else if (x.value === "") {
+                document.getElementById("btn").style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(window).resize(function() {
+                var width = $(window).width();
+                console.log(width);
+                if (width >= 992) {
+                    var x = document.getElementById("menu").querySelectorAll(".panel");
+                    for (var i = 0; i < x.length; i++) {
+                        x[i].style.display = "block";
+                    }
+                } else {
+                    var x = document.getElementById("menu").querySelectorAll(".panel");
+                    for (var i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    if (width < 992) {
+                        var acc = document.getElementsByClassName("accordion");
+                        for (var i = 0; i < acc.length; i++) {
+                            acc[i].addEventListener("click", function() {
+                                this.classList.toggle("change");
+                                this.classList.toggle("active");
+                                var panel = this.nextElementSibling;
+                                if (panel.style.display === "block") {
+                                    panel.style.display = "none";
+                                } else {
+                                    panel.style.display = "block";
+                                }
+                            });
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

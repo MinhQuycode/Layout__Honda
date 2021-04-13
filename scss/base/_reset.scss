@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: $color-white-1;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: $fw-0;
+    scroll-behavior: smooth;
+}

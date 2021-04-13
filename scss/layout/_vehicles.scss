@@ -1,0 +1,104 @@
+#vehicles {
+    .title {
+        @include text( #06456a, $fs-3 - 0.5, 100);
+        margin-bottom: 20px;
+    }
+    .nav-item {
+        margin: 0 20px;
+        .nav-link {
+            padding: 5px;
+            position: relative;
+            @include text( $color-blue-2, $fs-0, $fw-bold);
+        }
+        .active {
+            border-radius: unset;
+            background: none;
+            color: $color-blue-0;
+            &::after {
+                position: absolute;
+                bottom: 5%;
+                left: 3%;
+                content: '';
+                height: 3px;
+                background-color: $color-blue-0;
+                width: 94%;
+            }
+        }
+    }
+    .tab-content {
+        margin-top: 20px;
+        .vehicles__item {
+            position: relative;
+            height: 550px;
+            img {
+                height: 100%;
+            }
+            .vehicles__content {
+                text-align: left;
+                position: absolute;
+                bottom: 15%;
+                left: 8%;
+                margin-right: 70%;
+                p {
+                    margin-top: 2rem;
+                    @include text ($color-white-1, $fs-0, 100);
+                }
+                .content__number {
+                    margin-bottom: 2rem;
+                    p {
+                        margin: 0 20px;
+                        font-size: 30px;
+                        b {
+                            font-size: $fs-0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include respond-to('large') {
+        .tab-content {
+            .vehicles__item {
+                height: 400px;
+                .vehicles__content {
+                    p {
+                        display: none;
+                    }
+                    .content__number {
+                        p {
+                            display: unset;
+                            margin: 0 20px;
+                            font-size: 30px;
+                            b {
+                                font-size: $fs-0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include respond-to('medium') {
+        .tab-content {
+            .vehicles__item {
+                .vehicles__content {
+                    text-align: center;
+                    .content__logo {
+                        height: 50px;
+                        width: 180px;
+                    }
+                    .content__number {
+                        display: unset !important;
+                        p {
+                            margin: 0 20px;
+                            font-size: 27px;
+                            b {
+                                font-size: $fs-0 - 3;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

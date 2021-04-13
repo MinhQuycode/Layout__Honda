@@ -1,0 +1,47 @@
+#tools {
+    margin-top: 4rem;
+    .tool__content__1 {
+        width: 95%;
+        margin: 0 auto;
+        .card {
+            margin-top: 20px;
+            text-align: center;
+            line-height: 4rem;
+            i {
+                margin-top: 2rem;
+                @include text($color-blue-2, $fs-3, $fw-bold);
+            }
+            h6 {
+                min-height: 50px;
+                @include text($color-blue-2, $fs-0 + 2, $fw-bold);
+            }
+        }
+    }
+    .tool__content__2 {
+        width: 93%;
+        margin: 0 auto;
+        margin-top: 4rem;
+        img {
+            width: 100%;
+            height: 370px;
+        }
+        .tools__item {
+            position: relative;
+            .btn__tools {
+                position: absolute;
+                left: 35%;
+                bottom: 10%;
+            }
+            .tools__text {
+                position: absolute;
+                bottom: 10%;
+                h6 {
+                    @include text($color-white-0, $fs-0 + 2, $fw-bold);
+                }
+                p {
+                    @include text($color-white-0, $fs-0, $fw-normal);
+                }
+            }
+        }
+    }
+}

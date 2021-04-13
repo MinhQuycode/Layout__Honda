@@ -1,0 +1,20 @@
+#demo {
+    margin-top: 37px;
+    .carousel-item {
+        height: 500px;
+        position: relative;
+        img {
+            height: 500px;
+        }
+        .carousel-caption {
+            p {
+                @include text($color-white-0, $fs-1, $fw-bold);
+            }
+        }
+    }
+    @include respond-to('large') {
+        .carousel-item {
+            height: 350px !important;
+        }
+    }
+}

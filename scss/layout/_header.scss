@@ -1,0 +1,108 @@
+header {
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    .navbar--header {
+        padding: 0;
+        background-color: $color-blue-0;
+        height: 48px;
+        img {
+            width: 55px;
+            height: 40px;
+        }
+        .myMenu {
+            justify-content: flex-end;
+            ul {
+                height: 48px;
+                .nav-item {
+                    position: relative;
+                    .nav-link {
+                        position: relative;
+                        z-index: 1;
+                        @include text($color-white-0, $fs-0, $fw-1);
+                        padding: 0 20px;
+                        letter-spacing: .5px;
+                        line-height: 48px;
+                        transition: all .2s ease-in-out;
+                    }
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        top: 0%;
+                        width: 100%;
+                        height: 0%;
+                        background-color: $color-white-0;
+                        transition: all .2s ease-in-out;
+                    }
+                    &:hover::after {
+                        height: 100%;
+                    }
+                    &:hover {
+                        .nav-link {
+                            color: $color-blue-0;
+                        }
+                    }
+                }
+                .nav-item:first-child {
+                    border-left: 1px solid $color-white-0;
+                    border-right: 1px solid $color-white-0;
+                }
+                .nav-item:nth-child(2) {
+                    border-right: 1px solid $color-white-0;
+                }
+            }
+        }
+    }
+    @include respond-to('large') {
+        .header__GPS {
+            display: inline-block !important;
+            @include text($color-white-0, $fs-1, $fw-bold);
+            position: absolute;
+            right: 80px;
+            cursor: pointer;
+        }
+        ul {
+            .search__header {
+                display: flex !important;
+                width: 55%;
+                margin: 0 auto;
+                margin-top: 40px;
+                .input--header {
+                    border-radius: 1.95rem;
+                    background-color: $color-white-0;
+                    border: none;
+                    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, .15);
+                    color: $color-blue-0;
+                    &::placeholder {
+                        color: $color-blue-0;
+                    }
+                    &:focus {
+                        outline: none !important;
+                    }
+                }
+            }
+            .nav-item {
+                background-color: #eeeeee;
+                border-bottom: 1px solid #c4c4c4;
+                .nav-link {
+                    text-transform: uppercase;
+                    color: black !important;
+                    transition: none;
+                }
+                &::after {
+                    display: none !important;
+                }
+            }
+            .nav--item {
+                display: none;
+            }
+            .nav-item:nth-last-child(2) {
+                display: flex !important;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+}
